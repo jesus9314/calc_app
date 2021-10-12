@@ -16,7 +16,7 @@ const MathOperations = ({onClickOperation, onClickEqual}) => (
 
 MathOperations.propTypes =
 {
-    onClickOperations : PropTypes.func.isRequired,
-    onclickEqual : PropTypes.func.isRequired
+    onClickOperation : PropTypes.func.isRequired,
+    onClickEqual : PropTypes.func.isRequired
 }
 export default MathOperations
