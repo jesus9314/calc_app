@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "cal-app-je9314",
+    "react-calculator": "cal-app-je9314"
+  },
+  "targets": {}
+}
