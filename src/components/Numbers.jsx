@@ -1,15 +1,11 @@
-//importaciones
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import Button from './Button'
 
-//componente funcional
-
-//DRY: Don'r repeat yourself
-
-const numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+const numbers = [7,8,9,4,5,6,1,2,3,0]
 const renderButtons = onClickNumber =>{
-    //<Button text="1" clickHandler={onClickNumber}/>
+
     const renderButton = number =>  (
         <Button key={number} text={number.toString()} clickHandler={onClickNumber}/>
     )
@@ -24,10 +20,10 @@ const Numbers = ({onClickNumber}) => (
     </section>
 )
 
-//Proptypes
+
 Numbers.propTypes = {
     onClickNumber: PropTypes.func.isRequired
 }
 
-//exportacion 
+
 export default Numbers
